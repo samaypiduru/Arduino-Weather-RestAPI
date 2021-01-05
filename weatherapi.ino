@@ -4,7 +4,7 @@
 #include <DHT.h>
 
 const char *SSID = "wifi_ssid";
-const char *PWD = "wifi_pwd";
+const char *PWD = "wifi_password";
 
 StaticJsonDocument<250> jsonDocument;
 char buffer[250];
