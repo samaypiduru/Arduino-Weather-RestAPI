@@ -82,7 +82,7 @@ void loop() {
 
 void setup() {
   Serial.begin(115200);
-  beginWiFi();
   dht.begin();
+  beginWiFi();
   apiReqListen();
 }
